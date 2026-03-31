@@ -1,3 +1,5 @@
+# Algorithm
+---
 1. Create a graph using a HashMap where each key represents a city
    and stores a list of (neighbor, price).
 
