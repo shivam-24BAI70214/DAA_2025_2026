@@ -4,7 +4,7 @@ class Solution {
         Map<Integer,List<int[]>> graph=new HashMap<>();
         for (int[] flight:flights){
             graph.putIfAbsent(flight[0],new ArrayList<>());
-            graph.get(flight[0]).add(new int[]{flight[1], light[2]});
+            graph.get(flight[0]).add(new int[]{flight[1],flight[2]});
         }
         PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->a[0]-b[0]);
         pq.offer(new int[]{0,src,0});
