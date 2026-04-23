@@ -39,4 +39,5 @@ S = total sum of array
 
 ## Space Complexity (SC)
 O(S)
+
 (we use one dp array)
